@@ -1,0 +1,82 @@
+body {
+  font-size: 16px;
+  background-color: #dfe3f4;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/* HEADER */
+h1 {
+	    margin-top: 0px;
+	    margin-bottom: 0px; 
+}
+
+h2{
+ 	font-weight: bold;
+ 	margin-bottom: 40px;
+ 	margin-top: 0px;
+ }
+
+.navbar-brand{
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	height: 90px;
+}
+.navbar-brand h1{ /*company name*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: 'Bree Serif', serif;
+  	color: #3f4048;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#header-nav {
+
+	background-color:#9397a8 ;
+	border-radius: 0;
+	border: 2px solid #3f4048;
+}
+/* NAVIGATION LIST*/
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #3f4048;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1.5px solid #3f4048;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -63px;
+}
+/* END OF NAVIGATION LIST*/
+
+/* END OF HEADER */
+
+/* Page Content */
+h3.title {
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+section {
+  background-color: #9494b8;
+  margin-left: 5px;
+  margin-right: 5px; 
+  text-align: justify;
+}
+.description{
+  padding: 20px;
+  
+}
+
+/* End Page Content*/
